@@ -6,6 +6,21 @@ if (nav) {
   }, { passive: true });
 }
 
+/* ── Mobile hamburger ─────────────────────────────────────────────────────── */
+const hamburger = document.querySelector('.nav-hamburger');
+if (hamburger && nav) {
+  hamburger.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.querySelectorAll('.nav-links a').forEach((a) => {
+    a.addEventListener('click', () => {
+      nav.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+    });
+  });
+}
+
 /* ── Scroll reveal ────────────────────────────────────────────────────────── */
 document.documentElement.classList.add('js-loaded');
 
