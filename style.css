@@ -275,8 +275,9 @@ strong { font-weight: 600; }
   background:
     linear-gradient(to bottom,
       oklch(0.04 0.01 240 / 0.72) 0%,
-      oklch(0.04 0.01 240 / 0.32) 30%,
-      oklch(0.04 0.01 240 / 0.56) 62%,
+      oklch(0.04 0.01 240 / 0.68) 22%,
+      oklch(0.04 0.01 240 / 0.55) 40%,
+      oklch(0.04 0.01 240 / 0.78) 58%,
       oklch(0.04 0.01 240 / 0.98) 100%
     );
 }
@@ -1181,7 +1182,12 @@ strong { font-weight: 600; }
     padding: 18px 0 36px;
     gap: 20px;
   }
-  .hero-stats-row { gap: 14px; flex-wrap: wrap; }
+  .hero-stats-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 24px;
+    width: 100%;
+  }
   .hero-stat-sep { display: none; }
   .hero-stat strong { font-size: 13px; }
   .hero-stat span { font-size: 10px; }

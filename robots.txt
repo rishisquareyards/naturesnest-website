@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block non-content files from indexing
+Disallow: /main.js
+Disallow: /style.css
+
+Sitemap: https://naturesnest.homes/sitemap.xml

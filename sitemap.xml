@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://naturesnest.homes/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://naturesnest.homes/images/singles-2.png</image:loc>
+      <image:title>Nature's Nest at Ivy Rouge — detached single home, Oakville</image:title>
+      <image:caption>Nature's Nest at Ivy Rouge by Rosehaven Homes — new freehold homes in Oakville, Ontario</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://naturesnest.homes/images/singles-1.png</image:loc>
+      <image:title>Nature's Nest at Ivy Rouge — brick and stone home exterior</image:title>
+      <image:caption>Premium detached single-family homes at Nature's Nest, Oakville Ontario</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://naturesnest.homes/images/semi-detached.png</image:loc>
+      <image:title>The Willow — semi-detached home at Nature's Nest, Ivy Rouge Oakville</image:title>
+      <image:caption>Semi-detached freehold homes from $1,150,000 at Nature's Nest at Ivy Rouge</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://naturesnest.homes/images/towns.png</image:loc>
+      <image:title>The Linden — townhome at Nature's Nest, Ivy Rouge Oakville</image:title>
+      <image:caption>Freehold townhomes from $900,000 at Nature's Nest at Ivy Rouge, Oakville</image:caption>
+    </image:image>
+  </url>
+</urlset>
