@@ -302,11 +302,11 @@ strong { font-weight: 600; }
 .hero-exclusive {
   font-family: var(--body);
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.15em;
-  color: oklch(1 0 0 / 0.92);
+  color: oklch(1 0 0);
   text-transform: uppercase;
-  text-shadow: 0 1px 12px oklch(0 0 0 / 0.6);
+  text-shadow: 0 1px 16px oklch(0 0 0 / 0.8);
 }
 .hero-status-pill {
   display: inline-flex;
@@ -394,14 +394,16 @@ strong { font-weight: 600; }
   font-weight: 500;
   color: oklch(1 0 0);
   letter-spacing: 0.03em;
+  text-shadow: 0 1px 10px oklch(0 0 0 / 0.6);
 }
 .hero-stat span {
   font-family: var(--body);
   font-size: 11px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: oklch(1 0 0 / 0.50);
+  color: oklch(1 0 0 / 0.85);
+  text-shadow: 0 1px 8px oklch(0 0 0 / 0.7);
 }
 .hero-stat-sep {
   width: 1px;
@@ -420,7 +422,8 @@ strong { font-weight: 600; }
   font-size: 10px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: oklch(1 0 0 / 0.30);
+  color: oklch(1 0 0 / 0.65);
+  text-shadow: 0 1px 8px oklch(0 0 0 / 0.7);
   white-space: nowrap;
 }
 
